@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: grey;
+    background-color: #FFB0E2 ;
 }
 
 /* settings for people that have stated that they want reduced motion */
@@ -20,7 +20,7 @@ body{
 /* settings for the background if the person has not set a motion preference, meaning they are fine with motion */
 @media (prefers-reduced-motion:no-preference){
     body{
-        background-color: #FF9BB2;
+        background-color: #FFB0E2;
     }
     .wrapper{
         background-image: url("cute-cat.gif");
@@ -37,7 +37,7 @@ body{
     height: min(100vh - 6rem);
     margin-top:3em;
     margin-inline: auto;
-    border: orange 3px solid;
+    border: hwb(324 0% 0%) 3px solid;
 
 }
 
