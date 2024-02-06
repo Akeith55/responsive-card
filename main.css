@@ -11,19 +11,19 @@ body{
 /* settings for people that have stated that they want reduced motion */
 @media (prefers-reduced-motion){
     body{
-        background-color: rgb(230, 20, 20);
+        background-color: (#37376B);
     }
     .wrapper{
-        background-image: url("moon-static.jpg");
+        background-image: url("1667-lurking-kitty.png");
     }
 }
 /* settings for the background if the person has not set a motion preference, meaning they are fine with motion */
 @media (prefers-reduced-motion:no-preference){
     body{
-        background-color: greenyellow;
+        background-color: #FF9BB2;
     }
     .wrapper{
-        background-image: url("pastel-moon.gif");
+        background-image: url("cute-cat.gif");
     }
 }
 
